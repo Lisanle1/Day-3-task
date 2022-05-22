@@ -1,0 +1,54 @@
+let myResume={
+    "Career Objectives": [
+                            "Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings. 
+                             To get an opportunity where I can make the best of my potential and contribute to the organization's growth",
+                         ],
+    "Basics": {
+    "Name": "Lisan M",
+    "email": "xyz@gamil.com",
+    "phone": 9123456789,
+    "degree": "B.E",
+    "location": {
+    "address": "No.81,anna nagar 1st street",
+    "postalCode": 600102,
+    "city": "Chennai",
+    "state": "Tamilnadu",
+      },
+      "profiles": [
+        {
+          "github":"https://github.com/Lisanle1"
+        }
+      ]
+    },
+    "Education": [
+      {
+        "College": "Anna University",
+        "department": "Electrical and Electronics Engineering",
+        "batch start year": 2016,
+        "batch end year": 2020,
+        "gpa": 7.5,
+      }
+    ],
+    "skills": [
+      {
+        "name": "C and JAVA",
+        "level": "Intermediate",
+      }
+    ],
+    "project": [
+    
+        "Energy savings in radial distribution system(Wind energy)",
+    
+    ],
+  "languages": [
+    {
+      "language": "Tamil,Enlish",
+    }
+  ],
+  "interests": [
+    {
+      "name": "Full stack development,OOPS",
+    }
+    ]
+}
+console.log(myResume);
