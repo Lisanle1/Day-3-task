@@ -1,18 +1,18 @@
-let json = [{
+var json = [{
     "id" : "1", 
     "msg"   : "TO complete the given JSON iterate over all for loops (for, for in, for of, forEach)",
-    "task" : "Guvi task",
+    "task" : "task1",
     "mail": "xyz@gmail.com"
 },
 {
     "id" : "2", 
-    "msg"   : "To complete the given JSON iterate over all for loops (for, for in, for of, forEach)",
-    "task" : "Guvi task",
-    "mail": "xyz@gmail.com"
+    "msg"   : "To complete the given JSON iterate over all for loops",
+    "task" : "task2",
+    "mail": "abc@gmail.com"
 }];
 //for loop
-for(let i = 0; i < json.length; i++) {
-    let obj = json[i];
+for(var i = 0; i < json.length; i++) {
+    var obj = json[i];
 
     console.log(obj.id);
     console.log(obj.msg);
@@ -23,19 +23,19 @@ for(let i = 0; i < json.length; i++) {
 //for Each
 json.forEach(function(obj) { 
   console.log(obj.msg); 
-}
+});
 
 //for In
-for (let key in json) {
+for (var key in json) {
 if (json.hasOwnProperty(key)) {
   console.log(json[key].id);
-  //console.log(json[key].msg);
+  console.log(json[key].msg);
  
 }
 }
 //for Of
-let text = "";
-for (let x of json[key].id) {
+var text = "";
+for (var x of json[key].id) {
  text += x; 
 }
  console.log(text);
